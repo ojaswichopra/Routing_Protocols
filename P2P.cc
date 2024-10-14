@@ -60,7 +60,7 @@ main(int argc, char* argv[])
     clientApps.Stop(Seconds(10.0));
 
     // Enable NetAnim output
-    AnimationInterface anim("network-animation.xml"); 
+    AnimationInterface anim("P2P-topology.xml"); 
 
     Simulator::Run();
     Simulator::Destroy();
