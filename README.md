@@ -21,7 +21,7 @@ The simulation can be adapted to compare multiple routing algorithms such as:
 
 - **AODV (Ad-hoc On-demand Distance Vector)**  
 - **OLSR (Optimized Link State Routing)**  
-- **DSDV**  
+- **DSDV (Distance Sequenced Distance Vector)**  
 
 The results of these simulations can be used for performance analysis and protocol optimization.
 
@@ -29,7 +29,7 @@ The results of these simulations can be used for performance analysis and protoc
 
 To successfully work on this project, the following skills are required:
 
-- **Knowledge of Routing Algorithms**: Understanding different network routing algorithms such as Dijkstra, AODV, OLSR, etc.
+- **Knowledge of Routing Algorithms**: Understanding different network routing algorithms such as DSDV, AODV, OLSR, etc.
 - **Network Simulation**: Familiarity with creating and running network simulations using NS-3.
 - **Performance Analysis**: Ability to analyze metrics like throughput, delay, and packet loss to compare network protocol performance.
 
@@ -38,9 +38,10 @@ To successfully work on this project, the following skills are required:
 The following tools are used in this project:
 
 - **NS-3**: The core network simulator used for the project.
-- **Python or C++**: Used to write the simulation scripts.
-  
-  > Note: NS-3 supports both Python and C++, so either language can be used depending on preference.
+- **C++**: Used to write the simulation scripts.
+- **Python**: Used to plot the results.
+
+  > Note: NS-3 supports both Python and C++, so either language can be used depending on preference to write the simulation scripts.
 
 ## Installation
 
