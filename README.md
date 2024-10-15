@@ -49,7 +49,7 @@ To get started with this project, follow these installation steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone [https://github.com/ojaswichopra/network-simulation-ns3.git](https://github.com/ojaswichopra/ns3-simulation-routing_protocols.git)
+    git clone https://github.com/ojaswichopra/network-simulation-ns3.git
     cd ns3-simulation-routing_protocols
     ```
 
