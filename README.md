@@ -58,17 +58,25 @@ To get started with this project, follow these installation steps:
 3. **Install NS-3**: Follow the official [NS-3 Installation Guide](https://www.nsnam.org/wiki/Installation) to set up NS-3 on your machine.
 
 4. **Run the Simulation**: After installing dependencies and building NS-3, you copy the simulation code into the scratch directory after changing back into the top level directory of NS-3.
+   
+   Build the script
    ```bash
     # Build the Script
     ./ns3 build
     ```
+   Run the simulation, here you can change the protocol between OLSR, DSDV and AODV. You can also switch topology to mesh or star. Give path to the csv file where you want the performance parameters to be saved.
    ```bash
     # Run the Simulation
     ./ns3 run scratch/routing --protocol=DSDV --topology=mesh --outputFile=results.csv
     ```
+   To see animation of the simulation, you can use NetAnim, which is a network animation tool used in conjunction with the NS-3 framework.
+   ```bash
+    # Change to NetAnim Directory
+    cd netanim-3.109
+    ./NetAnim
+    ```
+   You can now choose the XML file which was generated on running the simulation and see its animation within the NetAniim window.
    
-  
-
 ## Usage
 
 1. **Define Network Topology**: Edit the script to define the desired network topology (nodes, links, etc.).
