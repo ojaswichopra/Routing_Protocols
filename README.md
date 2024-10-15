@@ -108,6 +108,9 @@ After running the simulation, an csv file is generated with the following perfor
 - DSDV has consistently low throughput but moderate latency, with slightly better performance in the Mesh topology.
 - OLSR shows poor throughput across both topologies, but it handles Mesh networks better in terms of delay compared to the Star topology, where it suffers the most.
 
+## Conclusion
+  If the network demands high throughput and operates in a more centralized (Star) topology, AODV is the best option. For networks where minimizing delay is more critical, especially in more distributed topologies, OLSR is a better choice. DSDV offers balanced performance but is generally outperformed in both throughput and delay by the other two protocols. Therefore, the choice of protocol should depend on the specific requirements of the network, including the topology and the trade-offs between throughput and delay.
+  
 ## Contributers
 - [Ojaswi Chopra](https://github.com/ojaswichopra)
 - [Shubham Sharma](https://github.com/shukabum)
