@@ -21,8 +21,7 @@ The simulation can be adapted to compare multiple routing algorithms such as:
 
 - **AODV (Ad-hoc On-demand Distance Vector)**  
 - **OLSR (Optimized Link State Routing)**  
-- **Dijkstra's Algorithm**  
-- **BGP (Border Gateway Protocol)**
+- **DSDV**  
 
 The results of these simulations can be used for performance analysis and protocol optimization.
 
@@ -49,7 +48,7 @@ To get started with this project, follow these installation steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/network-simulation-ns3.git
+    git clone https://github.com/ojaswichopra/network-simulation-ns3.git
     cd network-simulation-ns3
     ```
 
@@ -64,14 +63,7 @@ To get started with this project, follow these installation steps:
 
 4. **Run the Simulation**:
    After setting up NS-3 and installing dependencies, you can run the simulation with:
-   - **Python**: 
-     ```bash
-     ./waf --run <python-script-name>
-     ```
-   - **C++**: 
-     ```bash
-     ./waf --run <cpp-script-name>
-     ```
+  
 
 ## Usage
 
