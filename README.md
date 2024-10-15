@@ -82,7 +82,7 @@ To get started with this project, follow these installation steps:
 1. **Define Network Topology**: Edit the script to define the desired network topology (nodes, links, etc.).
 2. **Choose Routing Algorithm**: Specify the routing algorithm to use in the simulation.
 3. **Run the Simulation**: Execute the simulation using NS-3.
-4. **Analyze Results**: Check the output for performance metrics like throughput, latency, and packet delivery.
+4. **Analyze Results**: Check the output for performance metrics like throughput, and packet delivery.
 
 ## Features
 
