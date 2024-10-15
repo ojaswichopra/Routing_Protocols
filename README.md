@@ -10,7 +10,7 @@ This project involves creating a simulation of a network topology to analyze the
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Performance Metrics](#performance metrics)
+- [Performance Metrics](#performance)
 - [Contributing](#contributing)
 - [License](#license)
 
