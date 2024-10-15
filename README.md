@@ -10,6 +10,7 @@ This project involves creating a simulation of a network topology to analyze the
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Performance Metrics](#performance metrics)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -49,7 +50,7 @@ To get started with this project, follow these installation steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/ojaswichopra/network-simulation-ns3.git
+    git clone https://github.com/ojaswichopra/ns3-simulation-routing_protocols.git
     cd ns3-simulation-routing_protocols
     ```
 
@@ -91,6 +92,15 @@ To get started with this project, follow these installation steps:
 - Support for both Python and C++.
 - Generate reports on network performance metrics.
 - Visualize the network using built-in NS-3 tools.
+
+## Performance Metrics
+
+After running the simulation, an csv file is generated with the following performance parameters.
+1. **Throughput**: It measures how well the network can constantly provide data to the destination. It is derived in Mbps. For achieving better performance it should be high.
+2. **Packet Delivery Ratio**: The ratio of the number of data packets delivered to the destination nodes and the number of data packets sent by source nodes. The performance would be better when it is high.
+3. **End to end delay**: The average time interval between the generation of packets in a source node and successfully delivery of it in a destination node. The performance would be better when it is low.
+4. **Number of Packets dropped**: The number of data packets that is not successfully delivered to the destination during transmission.
+5. **Jitter**: It describes standard deviation of packet delay between all nodes.
 
 ## Contributers
 - [Ojaswi Chopra](https://github.com/ojaswichopra)
