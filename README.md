@@ -11,8 +11,8 @@ This project involves creating a simulation of a network topology to analyze the
 - [Usage](#usage)
 - [Features](#features)
 - [Performance Metrics](#performance)
-- [Contributing](#contributing)
-- [License](#license)
+- [Results](#results)
+- [Contributing](#contributers)
 
 ## Description
 
@@ -101,6 +101,12 @@ After running the simulation, an csv file is generated with the following perfor
 3. **End to end delay**: The average time interval between the generation of packets in a source node and successfully delivery of it in a destination node. The performance would be better when it is low.
 4. **Number of Packets dropped**: The number of data packets that is not successfully delivered to the destination during transmission.
 5. **Jitter**: It describes standard deviation of packet delay between all nodes.
+
+## Results
+
+- AODV provides excellent throughput in the Star topology, but this comes with higher delay, and its throughput drops significantly in Mesh topologies.
+- DSDV has consistently low throughput but moderate latency, with slightly better performance in the Mesh topology.
+- OLSR shows poor throughput across both topologies, but it handles Mesh networks better in terms of delay compared to the Star topology, where it suffers the most.
 
 ## Contributers
 - [Ojaswi Chopra](https://github.com/ojaswichopra)
