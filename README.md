@@ -49,21 +49,24 @@ To get started with this project, follow these installation steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/ojaswichopra/network-simulation-ns3.git
-    cd network-simulation-ns3
+    git clone [https://github.com/ojaswichopra/network-simulation-ns3.git](https://github.com/ojaswichopra/ns3-simulation-routing_protocols.git)
+    cd ns3-simulation-routing_protocols
     ```
 
-2. **Install NS-3**: Follow the official [NS-3 Installation Guide](https://www.nsnam.org/wiki/Installation) to set up NS-3 on your machine.
+2. **Install Dependencies**: NS-3 has various optional extensions, but the main features just require a C++ compiler (g++ or clang++), Python (version 3.8 or above), CMake and a build-system (e.g. make, ninja, Xcode). 
 
-3. **Install Dependencies**:
-    - **For Python**: 
-      ```bash
-      sudo apt-get install python3
-      ```
-    - **For C++**: Ensure that you have a C++ compiler installed.
+3. **Install NS-3**: Follow the official [NS-3 Installation Guide](https://www.nsnam.org/wiki/Installation) to set up NS-3 on your machine.
 
-4. **Run the Simulation**:
-   After setting up NS-3 and installing dependencies, you can run the simulation with:
+4. **Run the Simulation**: After installing dependencies and building NS-3, you copy the simulation code into the scratch directory after changing back into the top level directory of NS-3.
+   ```bash
+    # Build the Script
+    ./ns3 build
+    ```
+   ```bash
+    # Run the Simulation
+    ./ns3 run scratch/routing --protocol=DSDV --topology=mesh --outputFile=results.csv
+    ```
+   
   
 
 ## Usage
