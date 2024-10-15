@@ -12,7 +12,9 @@ This project involves creating a simulation of a network topology to analyze the
 - [Features](#features)
 - [Performance Metrics](#performance)
 - [Results](#results)
-- [Contributing](#contributers)
+- [Conclusion](#conclusion)
+- [Contributors](#contributers)
+  
 
 ## Description
 
